@@ -39,6 +39,7 @@ export class controllerContrl extends Component {
         this.__link.handleBase.getComponent(Widget).right = 0;
         this.__link.handleCenter.getComponent(Widget).left = 0;
         this.__link.handleCenter.getComponent(Widget).right = 0;
+        mainSceneControl.instance.releaseController();
     }
 
     private __onTouchMove(event:EventTouch):void{
